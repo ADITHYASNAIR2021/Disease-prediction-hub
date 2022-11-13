@@ -17,6 +17,10 @@ Main page
 
 ![image](https://user-images.githubusercontent.com/91555336/201508820-24b9a697-ac47-4e9f-a1c2-d0c9d430c9f6.png)
 
+Diabetes 
+
+![image](https://user-images.githubusercontent.com/91555336/201508862-0582bd1e-c9ef-4e47-9a45-15d896a2123e.png)
+
  Heart Failure 
  
  ![image](https://user-images.githubusercontent.com/91555336/201508829-9809162f-daaa-418f-8805-694f4cbdbdcc.png)
@@ -30,6 +34,4 @@ Cancer
 ![image](https://user-images.githubusercontent.com/91555336/201508855-3f062b07-ff1c-41eb-942a-59b86d45fecc.png)
 
 
-Diabetes 
 
-![image](https://user-images.githubusercontent.com/91555336/201508862-0582bd1e-c9ef-4e47-9a45-15d896a2123e.png)
