@@ -1,0 +1,219 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #ff702a;
+    --test-color: #b3af88;
+    --main-color-light: #9a6950;
+    --bg-color: #040404;
+    --bg-font:5rem;
+    --big-font:2.25rem;
+    --h2-font:1.5rem;
+}
+*::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+body{
+   background: var(--bg-color);
+    background: linear-gradient(to bottom, #0b0b0b 70%, #bac429 100%);
+    background-attachment: fixed;
+    color: var(--test-color);
+    position:fixed;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 170px 15px 170px ;
+    background-color:var(--bg-color);
+   
+}
+.logo{
+    color: var(--main-color);
+    font-size: 2.4rem;
+    font-weight: bold;
+   
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+  color: var(--test-color);
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  font-weight: 700;
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: bisque;
+    color: var(--main-color);
+    transition: .6s;
+}
+#menu-icon{
+color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+   
+
+}
+section{
+    padding: 100px 17%;
+    
+
+}
+.home{
+    min-height: 90vh;
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:1.5rem;
+    align-items: center;
+    position:fixed;
+}
+.home-text h1{
+
+    font-size: var(--bg-font);
+    color: var(--main-color);
+    position:fixed; left:200px; bottom:460px; 
+
+}
+.home-text h2{
+
+    font-size: var(--h2-font);
+    color: #fff;
+    padding: 5px;
+    position:fixed;left:200px; bottom:430px;
+
+}
+.home-image img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    position:fixed;left:750px; bottom:150px; 
+}
+.menu{
+    display:inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    position:fixed; left:100px; bottom:300px; 
+    width: 200px;
+    height: 50px;
+    
+}
+
+.menu:hover{
+    background-color: rgb(229, 208, 53);
+    transform: scale(1.2) translateY(10px);
+    transition: .6s;
+  
+}
+.stroke{
+    display:inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    position:fixed; left:100px; bottom:200px;
+    width: 200px;
+    height: 50px; 
+}
+
+.stroke:hover{
+    background-color: rgb(229, 208, 53);
+    transform: scale(1.2) translateY(10px);
+    transition: .6s;
+}
+.lungs{
+    display:inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    position:fixed; left:400px; bottom:200px; 
+    width: 200px;
+    height: 50px;
+ 
+}
+
+.lungs:hover{
+    background-color: rgb(229, 208, 53);
+    transform: scale(1.2) translateY(10px);
+    transition: .6s;
+}
+.diabetes{
+    display:inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    position:fixed; left:400px; bottom:300px; 
+    width: 200px;
+    height: 50px;
+}
+
+.diabetes:hover{
+    background-color: rgb(229, 208, 53);
+    transform: scale(1.2) translateY(10px);
+    transition: .6s;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap:1.5rem;
+    align-items: center;
+
+}
+.abt-text h1{
+    font-size: 1rem;
+    color:rgb(226, 152, 13);
+}
+.abt-text h2{
+    padding: 5px 0;
+    font-size: var(--h2-font);
+    color: #fff;
+    font-weight: 900;
+}
+.abt-text p{
+    font-size: 1.2rem;
+    color:var(--main-color-light);
+    padding: 10px 0 ;
+}
+
+.abtus{
+    display:inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+.abtus:hover{
+
+    background-color: rgb(150, 136, 29);
+    transform: scale(1.2) translateZ(5px);
+    transition: .6s;
+  
+}
+.about-image img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
