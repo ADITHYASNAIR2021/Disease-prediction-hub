@@ -1,4 +1,4 @@
-# Reva-Hacks---Team-Codaly
+# Disease-prediction-hub
 For this Hackathon the main IPYNB file which includes the Main prediction and plots are at Reva_Hacka _(2).ipynb 
 The main predictions are given seperate in the predictions.ipynb file
 
