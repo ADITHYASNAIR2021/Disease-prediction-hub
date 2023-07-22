@@ -9,7 +9,7 @@ The main predictions are given seperate in the predictions.ipynb file
              import gradio as gr
 
 
-Necessory detaiils to fill the input fields given in the UI are mentioned in the web page description and articles.
+Necessory details that are required to be filled in the input fields are given in the UI are mentioned in the web page description and articles.
 
 ![image](https://user-images.githubusercontent.com/91555336/201508816-8b19d5c7-84c5-4046-a77c-8c25bf2b235d.png)
 
